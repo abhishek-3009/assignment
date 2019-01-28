@@ -16,9 +16,7 @@ public class Problem10 {
 			while((line=br.readLine())!=null) {
 				sb.append(line).append("\n");
 			}
-			String state= sb.toString();
-			String[] str= state.split("\n");
-		//	System.out.println(state);
+			String[] str= sb.toString().split("\n");
 			br.close();
 			
 			ArrayList<String> stateNames= new ArrayList<String>();
