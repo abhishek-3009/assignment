@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.TreeSet;
 
 public class Problem10 {
 
@@ -27,6 +29,15 @@ public class Problem10 {
 			}	
 			System.out.println(stateNames);
 			System.out.println(stateNames.size());
+			
+			HashSet<String> hshSet= new HashSet<String>();
+			hshSet.addAll(stateNames);
+			System.out.println(hshSet);
+			
+			TreeSet<String> treeSet= new TreeSet<String>();
+			treeSet.addAll(stateNames);
+			System.out.println(treeSet);
+			
 	//	}
 		
 	}

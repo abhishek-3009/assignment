@@ -7,7 +7,7 @@ public class Problem9 {
 		StringBuilder strBuilder= new StringBuilder();
 		int i=97;
 		System.out.println(strBuilder.capacity()+"\t"+strBuilder.length());
-		while(i<=122) {
+		while( i <= 122) {
 			strBuilder.append((char)i);
 			i++;	
 		}
@@ -16,7 +16,7 @@ public class Problem9 {
 		
 		StringBuffer strBuffer= new StringBuffer();
 		System.out.println(strBuffer.capacity()+"\t"+strBuffer.length());
-		for(i=97;i<123;i++) {
+		for(i= 97; i < 123; i++) {
 			strBuffer.append((char)i);
 		}
 		System.out.println(strBuffer);
