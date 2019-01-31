@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.TreeSet;
 
 public class Problem10 {
@@ -27,16 +28,20 @@ public class Problem10 {
 				stateNames.add(i);
 				
 			}	
-			System.out.println(stateNames);
+		//	Iterator<String> iterator= stateNames.iterator();
+		//	while(iterator.hasNext()) {
+		//		System.out.println(iterator.next());
+		//	}
+			System.out.println("ArrayList: "+stateNames);
 			System.out.println(stateNames.size());
 			
 			HashSet<String> hshSet= new HashSet<String>();
 			hshSet.addAll(stateNames);
-			System.out.println(hshSet);
+			System.out.println("HashSet: "+hshSet);
 			
 			TreeSet<String> treeSet= new TreeSet<String>();
 			treeSet.addAll(stateNames);
-			System.out.println(treeSet);
+			System.out.println("TreeSet: "+treeSet);
 			
 	//	}
 		
